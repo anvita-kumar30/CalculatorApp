@@ -42,6 +42,7 @@ class MainApp(App):
 
         return main_layout
 
+
     def on_button_press(self, instance):
         current = self.solution.text
         button_text = instance.text
